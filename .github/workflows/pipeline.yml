@@ -19,8 +19,8 @@ jobs:
       with:
         node-version: 20.x
         cache: 'npm'
-    - name: Instal NPM    
-      run: npm instal
+    - name: Install NPM    
+      run: npm install
     - name: start test 
       run: npm run test:unit
     - name: Display SoftUni username
